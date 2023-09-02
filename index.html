@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>NASA Space Apps</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="style.css">
+  <title>NASA Space Apps</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="YH-top">
-  <div class="YH-bar YH-white YH-card" id="myNavbar">
-    <a href="#home" class="YH-bar-item YH-button YH-wide">NASA</a>
-    <!-- Right-sided navbar links -->
-    <div class="YH-right YH-hide-small">
-      <a href="#about" class="YH-bar-item YH-button">ABOUT</a>
-      <a href="#pricing" class="YH-bar-item YH-button"><i class="fa fa-usd"></i> BOOKING</a>
-      <a href="#contact" class="YH-bar-item YH-button"><i class="fa fa-envelope"></i> CONTACT</a>
+  <!-- Header with full-height image -->
+  <!-- Header -->
+  <!-- Tabs -->
+  <div class="container bgimg-1">
+
+    <header>
+      <h2><a href="#"><i class="ion-plane"></i>&Theta; Vega</a></h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="#" title="Flights">Flights</a>
+          </li>
+          <li>
+            <a href="#" title="Tours">Tours</a>
+          </li>
+          <li>
+            <a class="btn" href="login.html" title="Register / Log In">Register/Log In</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="cover">
+      <h1>Discover what's out there.</h1>
+      <form class="flex-form">
+        <label for="from">
+          <i class="ion-location"></i>
+        </label>
+        <input type="search" placeholder="Where do you want to go?">
+        <input type="submit" value="Search">
+      </form>
     </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-    <a href="javascript:void(0)" class="YH-bar-item YH-button YH-right YH-hide-large YH-hide-medium" onclick="YH_open()">
-      <i class="fa fa-bars"></i>
-    </a>
   </div>
-</div>
+  </div>
 
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="YH-sidebar YH-bar-block YH-black YH-card YH-animate-left YH-hide-medium YH-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="YH_close()" class="YH-bar-item YH-button YH-large YH-padding-16">Close ×</a>
-  <a href="#about" onclick="YH_close()" class="YH-bar-item YH-button">ABOUT</a>
-   <a href="#pricing" onclick="YH_close()" class="YH-bar-item YH-button">BOOKING</a>
-  <a href="#contact" onclick="YH_close()" class="YH-bar-item YH-button">CONTACT</a>
-</nav>
-
-<!-- Header with full-height image -->
-<header class="bgimg-1 YH-display-container YH-grayscale-min" id="home">
-  <div class="YH-display-left YH-text-white" style="padding:48px">
-    <span class="YH-jumbo YH-hide-small">NASA Space Apps</span><br>
-    <span class="YH-large">Stars cannot shine without darkness.</span>
-    <p><a href="#about" class="YH-button YH-white YH-padding-large YH-large YH-margin-top YH-opacity YH-hover-opacity-off">Learn more</a></p>
-  </div> 
   <div class="YH-display-bottomleft YH-text-grey YH-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official YH-hover-opacity"></i>
     <i class="fa fa-instagram YH-hover-opacity"></i>
@@ -51,273 +56,318 @@
     <i class="fa fa-twitter YH-hover-opacity"></i>
     <i class="fa fa-linkedin YH-hover-opacity"></i>
   </div>
-</header>
+  </header>
+  <div class="YH-container YH-light-grey" style="padding:25px 16px">
+    <h1 style="color: black; text-align: center;">Last Events</h1>
+    <div class="YH-row-padding">
+      <div class="YH-col m6">
+        <h3>Events In Oct 10.</h3>
+        <p>1-TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+        <p>2-TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+        <p>3-TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+        <p>4-TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+        <p>5-TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+        <p>6-TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+        <p>7-TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+        <p>8-TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+        <p>9-TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
 
-<!-- About Section -->
-<div class="YH-container" style="padding:128px 16px" id="about">
-  <h3 class="YH-center">TO SPACE</h3>
-  <p class="YH-center YH-large">Key To The Future</p>
-  <div class="YH-row-padding YH-center" style="margin-top:64px">
-    <div class="YH-quarter">
-      <img class="YH-img-spc" src="img/1e08bce9-5896-4510-b194-4113fffa5faf.png" onclick="onClick(this)" class="YH-hover-opacity"alt="">
-      <p class="YH-large">TEXT</p>
-      <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
-    </div>
-    <div class="YH-quarter">
-      <img class="YH-img-spc" src="img/935cd909-f961-4175-b89f-8ffb2f682b58.png" onclick="onClick(this)" class="YH-hover-opacity" alt="">
-      <p class="YH-large">TEXT</p>
-      <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
-    </div>
-    <div class="YH-quarter">
-      <img class="YH-img-spc" src="img/5dbe6fa1-4fe1-4610-a668-57e10c701528.png" onclick="onClick(this)" class="YH-hover-opacity" alt="">
-      <p class="YH-large">TEXT</p>
-      <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
-    </div>
-    <div class="YH-quarter">
-      <img class="YH-img-spc" src="img/1764d47a-e830-4e36-b465-58e3cfc4c2c6.png" onclick="onClick(this)" class="YH-hover-opacity" alt="">
-      <p class="YH-large">TEXT</p>
-      <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+        <p><a href="#work" class="YH-button YH-black"> View more</a></p>
+      </div>
+      <div class="YH-col m6">
+        <img class="YH-image YH-round-large" src="img/39bbaa6b-5761-4435-b847-beee2d0c5541.png" alt="Buildings"
+          width="700" height="394">
+      </div>
     </div>
   </div>
-</div>
+  <!-- About Section -->
+  <div class="YH-container" style="padding:128px 16px" id="about">
+    <h3 class="YH-center">Destinations</h3>
+    <p class="YH-center YH-large">Key To The Future</p>
+    <div class="YH-row-padding YH-center" style="margin-top:64px">
+      <div class="YH-quarter">
+        <a href="mercury.html" class="link-pln">
+        <img id="myImg" class="YH-img-pla" src="img/m1.png"  class="YH-hover-opacity" alt="Mercury">
+        <p class="YH-large">Mercury</p></a>
+      </div>
+      <div class="YH-quarter">
+        <a href="venus.html" class="link-pln">
+        <img id="myImg" class="YH-img-pla" src="img/v1.png"  class="YH-hover-opacity" alt="Venus">
+          <p class="YH-large">Venus</p></a>
+      </div>
+      <div class="YH-quarter">
+        <a href="earth.html" class="link-pln">
+        <img id="myImg" class="YH-img-pla" src="img/e1.png"  class="YH-hover-opacity" alt="Earth">
+          <p class="YH-large">Earth</p></a>
+      </div>
+      <div class="YH-quarter">
+        <a href="mars.html" class="link-pln">
+        <img id="myImg" class="YH-img-pla" src="img/ma1.png" class="YH-hover-opacity" alt="Mars">
+          <p class="YH-large">Mars</p></a>
+      </div>
 
-<!-- Promo Section - "We know design" -->
-<div class="YH-container YH-light-grey" style="padding:128px 16px">
-  <div class="YH-row-padding">
-    <div class="YH-col m6">
-      <h3>TEXT TEXT TEXT.</h3>
-      <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+    </div>
+
+  </div>
+  <div class="YH-container" style="padding:0px 16px" id="about">
+    <div class="YH-row-padding YH-center">
+      <div class="YH-quarter">
+        <a href="jupiter.html" class="link-pln">
+        <img id="myImg" class="YH-img-pla" src="img/j1.png" class="YH-hover-opacity" alt="Jupiter">
+          <p class="YH-large">Jupiter</p></a>
+      </div>
+      <div class="YH-quarter">
+        <a href="saturn.html" class="link-pln">
+        <img id="myImg" class="YH-img-pla" src="img/s1.png" " class="YH-hover-opacity" alt="Saturn">
+          <p class="YH-large">Saturn</p></a>
+      </div>
+      <div class="YH-quarter">
+        <a href="uranus.html" class="link-pln">
+        <img id="myImg" class="YH-img-pla" src="img/u1.png" class="YH-hover-opacity" alt="Uranus">
+          <p class="YH-large">Uranus</p></a>
+      </div>
+      <div class="YH-quarter">
+        <a href="neptune.html" class="link-pln">
+        <img id="myImg" class="YH-img-pla" src="img/n1.png" class="YH-hover-opacity" alt="Neptune">
+        <p class="YH-large">Neptune</p></a>
+      </div>
+
       <p><a href="#work" class="YH-button YH-black"> View more</a></p>
     </div>
-    <div class="YH-col m6">
-      <img class="YH-image YH-round-large" src="img/39bbaa6b-5761-4435-b847-beee2d0c5541.png" alt="Buildings" width="700" height="394">
-    </div>
-  </div>
-</div>
 
-<!-- Team Section -->
-<div class="YH-container" style="padding:128px 16px" id="team">
-  <h3 class="YH-center">THE PLANETS</h3>
-  <p class="YH-center YH-large">PLANETS</p>
-  <div class="YH-row-padding YH-grayscale" style="margin-top:64px">
-    <div class="YH-col l3 m6 YH-margin-bottom">
-      <div class="YH-card">
-        <img src="img/1764d47a-e830-4e36-b465-58e3cfc4c2c6.png" alt="TEXT" style="width:100%">
-        <div class="YH-container">
-          <h3>TEXT</h3>
-          <p class="YH-opacity">mars</p>
-          <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT .</p>
-          <p><button class="YH-button YH-light-grey YH-block"><i class="fa fa-usd"></i> BOOKING</button></p>
+  </div>
+
+
+  <!-- Team Section -->
+  <div class="YH-container" style="padding:128px 16px" id="team">
+    <h3 class="YH-center">THE PLANETS</h3>
+    <p class="YH-center YH-large">PLANETS</p>
+    <div class="YH-row-padding YH-grayscale" style="margin-top:64px">
+      <div class="YH-col l3 m6 YH-margin-bottom">
+        <div class="YH-card">
+          <img src="img/1764d47a-e830-4e36-b465-58e3cfc4c2c6.png" alt="TEXT" style="width:100%">
+          <div class="YH-container">
+            <h3>TEXT</h3>
+            <p class="YH-opacity">mars</p>
+            <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT .</p>
+            <p><button class="YH-button YH-light-grey YH-block"><i class="fa fa-usd"></i> BOOKING</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="YH-col l3 m6 YH-margin-bottom">
+        <div class="YH-card">
+          <img src="img/1e08bce9-5896-4510-b194-4113fffa5faf.png" alt="TEXT" style="width:100%">
+          <div class="YH-container">
+            <h3>TEXT</h3>
+            <p class="YH-opacity">mars</p>
+            <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT .</p>
+            <p><button class="YH-button YH-light-grey YH-block"><i class="fa fa-usd"></i> BOOKING</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="YH-col l3 m6 YH-margin-bottom">
+        <div class="YH-card">
+          <img src="img/5dbe6fa1-4fe1-4610-a668-57e10c701528.png" alt="TEXT" style="width:100%">
+          <div class="YH-container">
+            <h3>TEXT</h3>
+            <p class="YH-opacity">mars</p>
+            <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT .</p>
+            <p><button class="YH-button YH-light-grey YH-block"><i class="fa fa-usd"></i> BOOKING</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="YH-col l3 m6 YH-margin-bottom">
+        <div class="YH-card">
+          <img src="img/68e4c441-243f-499f-9047-495fccc8771b.png" alt="TEXT" style="width:100%">
+          <div class="YH-container">
+            <h3>TEXT</h3>
+            <p class="YH-opacity">mars</p>
+            <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT .</p>
+            <p><button class="YH-button YH-light-grey YH-block"><i class="fa fa-usd"></i> BOOKING</button></p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="YH-col l3 m6 YH-margin-bottom">
-      <div class="YH-card">
-        <img src="img/1e08bce9-5896-4510-b194-4113fffa5faf.png" alt="TEXT" style="width:100%">
-        <div class="YH-container">
-          <h3>TEXT</h3>
-          <p class="YH-opacity">mars</p>
-          <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT .</p>
-          <p><button class="YH-button YH-light-grey YH-block"><i class="fa fa-usd"></i> BOOKING</button></p>
+  </div>
+
+  <!-- Promo Section "Statistics" -->
+  <div class="YH-container YH-row YH-center YH-dark-grey YH-padding-64">
+    <div class="YH-quarter">
+      <span class="YH-xxlarge">14+</span>
+      <br>Mercury
+    </div>
+    <div class="YH-quarter">
+      <span class="YH-xxlarge">55+</span>
+      <br>Venus
+    </div>
+    <div class="YH-quarter">
+      <span class="YH-xxlarge">89+</span>
+      <br>Mars
+    </div>
+    <div class="YH-quarter">
+      <span class="YH-xxlarge">150+</span>
+      <br>Jupiter
+    </div>
+  </div>
+
+  <!-- Work Section -->
+  <div class="YH-container" style="padding:128px 16px" id="work">
+    <h3 class="YH-center">OUR WORK</h3>
+    <p class="YH-center YH-large">What we've done for people</p>
+
+    <div class="YH-row-padding" style="margin-top:64px">
+      <div class="YH-col l3 m6">
+        <img src="img/7d0ac858-2d19-4cfe-b0a0-052b2cd86a20.png" style="width:100%" onclick="onClick(this)"
+          class="YH-hover-opacity" alt="A microphone">
+      </div>
+      <div class="YH-col l3 m6">
+        <img src="img/72aedef9-1914-4d18-b144-8e319e902912.png" style="width:100%" onclick="onClick(this)"
+          class="YH-hover-opacity" alt="A phone">
+      </div>
+      <div class="YH-col l3 m6">
+        <img src="img/697576ee-0bdd-4974-bb0b-cdc01dfd7967.png" style="width:100%" onclick="onClick(this)"
+          class="YH-hover-opacity" alt="A drone">
+      </div>
+      <div class="YH-col l3 m6">
+        <img src="img/073fe033-9f0a-43d1-9b8e-6d24857aedc5.png" style="width:100%" onclick="onClick(this)"
+          class="YH-hover-opacity" alt="Soundbox">
+      </div>
+    </div>
+
+    <div class="YH-row-padding YH-section">
+      <div class="YH-col l3 m6">
+        <img src="img/8198065f-106c-4249-8f3c-9ca7309ac9e2.png" style="width:100%" onclick="onClick(this)"
+          class="YH-hover-opacity" alt="A tablet">
+      </div>
+      <div class="YH-col l3 m6">
+        <img src="img/39bbaa6b-5761-4435-b847-beee2d0c5541.png" style="width:100%" onclick="onClick(this)"
+          class="YH-hover-opacity" alt="A camera">
+      </div>
+      <div class="YH-col l3 m6">
+        <img src="img/38866d28-e6b8-453d-83f7-fef96686c755.png" style="width:100%" onclick="onClick(this)"
+          class="YH-hover-opacity" alt="A typewriter">
+      </div>
+      <div class="YH-col l3 m6">
+        <img src="img/72aedef9-1914-4d18-b144-8e319e902912.png" style="width:100%" onclick="onClick(this)"
+          class="YH-hover-opacity" alt="A tableturner">
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="YH-modal YH-black" onclick="this.style.display='none'">
+    <span class="YH-button YH-xxlarge YH-black YH-padding-large YH-display-topright" title="Close Modal Image">×</span>
+    <div class="YH-modal-content YH-animate-zoom YH-center YH-transparent YH-padding-64">
+      <img id="img01" class="YH-image">
+      <p id="caption" class="YH-opacity YH-large"></p>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="YH-container YH-light-grey YH-padding-64">
+    <div class="YH-row-padding">
+      <div class="YH-col m6">
+        <h3>TEXT</h3>
+        <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+        <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
+      </div>
+      <div class="YH-col m6">
+        <p class="YH-wide"></i>TEXT</p>
+        <div class="YH-grey">
+          <div class="YH-container YH-dark-grey YH-center" style="width:90%">90%</div>
+        </div>
+        <p class="YH-wide"></i>TEXT</p>
+        <div class="YH-grey">
+          <div class="YH-container YH-dark-grey YH-center" style="width:85%">85%</div>
+        </div>
+        <p class="YH-wide"></i>TEXT</p>
+        <div class="YH-grey">
+          <div class="YH-container YH-dark-grey YH-center" style="width:75%">75%</div>
         </div>
       </div>
     </div>
-    <div class="YH-col l3 m6 YH-margin-bottom">
-      <div class="YH-card">
-        <img src="img/5dbe6fa1-4fe1-4610-a668-57e10c701528.png" alt="TEXT" style="width:100%">
-        <div class="YH-container">
-          <h3>TEXT</h3>
-          <p class="YH-opacity">mars</p>
-          <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT .</p>
-          <p><button class="YH-button YH-light-grey YH-block"><i class="fa fa-usd"></i> BOOKING</button></p>
-        </div>
+  </div>
+
+  <!-- Pricing Section -->
+  <div class="YH-container YH-center YH-dark-grey" style="padding:128px 16px" id="pricing">
+    <h3>PRICING</h3>
+    <p class="YH-large">Choose a pricing plan that fits .</p>
+    <div class="YH-row-padding" style="margin-top:64px">
+      <div class="YH-third YH-section">
+        <ul class="YH-ul YH-white YH-hover-shadow">
+          <li class="YH-black YH-xlarge YH-padding-32">MOON</li>
+          <li class="YH-padding-16"><b>10min</b> mars</li>
+          <li class="YH-padding-16"><b>10</b> mars</li>
+          <li class="YH-padding-16"><b>10</b> mars</li>
+          <li class="YH-padding-16"><b>mars</b> mars</li>
+          <li class="YH-padding-16">
+            <h2 class="YH-wide">$ 10</h2>
+            <span class="YH-opacity">text</span>
+          </li>
+          <li class="YH-light-grey YH-padding-24">
+            <button class="YH-button YH-black YH-padding-large">BOOKING</button>
+          </li>
+        </ul>
       </div>
-    </div>
-    <div class="YH-col l3 m6 YH-margin-bottom">
-      <div class="YH-card">
-        <img src="img/68e4c441-243f-499f-9047-495fccc8771b.png" alt="TEXT" style="width:100%">
-        <div class="YH-container">
-          <h3>TEXT</h3>
-          <p class="YH-opacity">mars</p>
-          <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT .</p>
-          <p><button class="YH-button YH-light-grey YH-block"><i class="fa fa-usd"></i> BOOKING</button></p>
-        </div>
+      <div class="YH-third">
+        <ul class="YH-ul YH-white YH-hover-shadow">
+          <li class="YH-red YH-xlarge YH-padding-48">saturn</li>
+          <li class="YH-padding-16"><b>25min</b> mars</li>
+          <li class="YH-padding-16"><b>25</b> mars</li>
+          <li class="YH-padding-16"><b>25</b> mars</li>
+          <li class="YH-padding-16"><b>mars</b> mars</li>
+          <li class="YH-padding-16">
+            <h2 class="YH-wide">$ 25</h2>
+            <span class="YH-opacity">text</span>
+          </li>
+          <li class="YH-light-grey YH-padding-24">
+            <button class="YH-button YH-black YH-padding-large">BOOKING</button>
+          </li>
+        </ul>
       </div>
-    </div>
-  </div>
-</div>
-
-<!-- Promo Section "Statistics" -->
-<div class="YH-container YH-row YH-center YH-dark-grey YH-padding-64">
-  <div class="YH-quarter">
-    <span class="YH-xxlarge">14+</span>
-    <br>Mercury
-  </div>
-  <div class="YH-quarter">
-    <span class="YH-xxlarge">55+</span>
-    <br>Venus
-  </div>
-  <div class="YH-quarter">
-    <span class="YH-xxlarge">89+</span>
-    <br>Mars
-  </div>
-  <div class="YH-quarter">
-    <span class="YH-xxlarge">150+</span>
-    <br>Jupiter
-  </div>
-</div>
-
-<!-- Work Section -->
-<div class="YH-container" style="padding:128px 16px" id="work">
-  <h3 class="YH-center">OUR WORK</h3>
-  <p class="YH-center YH-large">What we've done for people</p>
-
-  <div class="YH-row-padding" style="margin-top:64px">
-    <div class="YH-col l3 m6">
-      <img src="img/7d0ac858-2d19-4cfe-b0a0-052b2cd86a20.png" style="width:100%" onclick="onClick(this)" class="YH-hover-opacity" alt="A microphone">
-    </div>
-    <div class="YH-col l3 m6">
-      <img src="img/72aedef9-1914-4d18-b144-8e319e902912.png" style="width:100%" onclick="onClick(this)" class="YH-hover-opacity" alt="A phone">
-    </div>
-    <div class="YH-col l3 m6">
-      <img src="img/697576ee-0bdd-4974-bb0b-cdc01dfd7967.png" style="width:100%" onclick="onClick(this)" class="YH-hover-opacity" alt="A drone">
-    </div>
-    <div class="YH-col l3 m6">
-      <img src="img/073fe033-9f0a-43d1-9b8e-6d24857aedc5.png" style="width:100%" onclick="onClick(this)" class="YH-hover-opacity" alt="Soundbox">
-    </div>
-  </div>
-
-  <div class="YH-row-padding YH-section">
-    <div class="YH-col l3 m6">
-      <img src="img/8198065f-106c-4249-8f3c-9ca7309ac9e2.png" style="width:100%" onclick="onClick(this)" class="YH-hover-opacity" alt="A tablet">
-    </div>
-    <div class="YH-col l3 m6">
-      <img src="img/39bbaa6b-5761-4435-b847-beee2d0c5541.png" style="width:100%" onclick="onClick(this)" class="YH-hover-opacity" alt="A camera">
-    </div>
-    <div class="YH-col l3 m6">
-      <img src="img/38866d28-e6b8-453d-83f7-fef96686c755.png" style="width:100%" onclick="onClick(this)" class="YH-hover-opacity" alt="A typewriter">
-    </div>
-    <div class="YH-col l3 m6">
-      <img src="img/72aedef9-1914-4d18-b144-8e319e902912.png" style="width:100%" onclick="onClick(this)" class="YH-hover-opacity" alt="A tableturner">
-    </div>
-  </div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="YH-modal YH-black" onclick="this.style.display='none'">
-  <span class="YH-button YH-xxlarge YH-black YH-padding-large YH-display-topright" title="Close Modal Image">×</span>
-  <div class="YH-modal-content YH-animate-zoom YH-center YH-transparent YH-padding-64">
-    <img id="img01" class="YH-image">
-    <p id="caption" class="YH-opacity YH-large"></p>
-  </div>
-</div>
-
-<!-- Skills Section -->
-<div class="YH-container YH-light-grey YH-padding-64">
-  <div class="YH-row-padding">
-    <div class="YH-col m6">
-      <h3>TEXT</h3>
-      <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
-      <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT.</p>
-    </div>
-    <div class="YH-col m6">
-      <p class="YH-wide"></i>TEXT</p>
-      <div class="YH-grey">
-        <div class="YH-container YH-dark-grey YH-center" style="width:90%">90%</div>
-      </div>
-      <p class="YH-wide"></i>TEXT</p>
-      <div class="YH-grey">
-        <div class="YH-container YH-dark-grey YH-center" style="width:85%">85%</div>
-      </div>
-      <p class="YH-wide"></i>TEXT</p>
-      <div class="YH-grey">
-        <div class="YH-container YH-dark-grey YH-center" style="width:75%">75%</div>
+      <div class="YH-third YH-section">
+        <ul class="YH-ul YH-white YH-hover-shadow">
+          <li class="YH-black YH-xlarge YH-padding-32">sun</li>
+          <li class="YH-padding-16"><b>50min</b> mars</li>
+          <li class="YH-padding-16"><b>50</b> mars</li>
+          <li class="YH-padding-16"><b>50</b> mars</li>
+          <li class="YH-padding-16"><b>mars</b> mars</li>
+          <li class="YH-padding-16">
+            <h2 class="YH-wide">$ 50</h2>
+            <span class="YH-opacity">text</span>
+          </li>
+          <li class="YH-light-grey YH-padding-24">
+            <button class="YH-button YH-black YH-padding-large">BOOKING</button>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Pricing Section -->
-<div class="YH-container YH-center YH-dark-grey" style="padding:128px 16px" id="pricing">
-  <h3>PRICING</h3>
-  <p class="YH-large">Choose a pricing plan that fits .</p>
-  <div class="YH-row-padding" style="margin-top:64px">
-    <div class="YH-third YH-section">
-      <ul class="YH-ul YH-white YH-hover-shadow">
-        <li class="YH-black YH-xlarge YH-padding-32">MOON</li>
-        <li class="YH-padding-16"><b>10min</b> mars</li>
-        <li class="YH-padding-16"><b>10</b> mars</li>
-        <li class="YH-padding-16"><b>10</b> mars</li>
-        <li class="YH-padding-16"><b>mars</b> mars</li>
-        <li class="YH-padding-16">
-          <h2 class="YH-wide">$ 10</h2>
-          <span class="YH-opacity">text</span>
-        </li>
-        <li class="YH-light-grey YH-padding-24">
-          <button class="YH-button YH-black YH-padding-large">BOOKING</button>
-        </li>
-      </ul>
-    </div>
-    <div class="YH-third">
-      <ul class="YH-ul YH-white YH-hover-shadow">
-        <li class="YH-red YH-xlarge YH-padding-48">saturn</li>
-        <li class="YH-padding-16"><b>25min</b> mars</li>
-        <li class="YH-padding-16"><b>25</b> mars</li>
-        <li class="YH-padding-16"><b>25</b> mars</li>
-        <li class="YH-padding-16"><b>mars</b> mars</li>
-        <li class="YH-padding-16">
-          <h2 class="YH-wide">$ 25</h2>
-          <span class="YH-opacity">text</span>
-        </li>
-        <li class="YH-light-grey YH-padding-24">
-          <button class="YH-button YH-black YH-padding-large">BOOKING</button>
-        </li>
-      </ul>
-    </div>
-    <div class="YH-third YH-section">
-      <ul class="YH-ul YH-white YH-hover-shadow">
-        <li class="YH-black YH-xlarge YH-padding-32">sun</li>
-        <li class="YH-padding-16"><b>50min</b> mars</li>
-        <li class="YH-padding-16"><b>50</b> mars</li>
-        <li class="YH-padding-16"><b>50</b> mars</li>
-        <li class="YH-padding-16"><b>mars</b> mars</li>
-        <li class="YH-padding-16">
-          <h2 class="YH-wide">$ 50</h2>
-          <span class="YH-opacity">text</span>
-        </li>
-        <li class="YH-light-grey YH-padding-24">
-          <button class="YH-button YH-black YH-padding-large">BOOKING</button>
-        </li>
-      </ul>
+  <!-- Contact Section -->
+  <div class="YH-container YH-light-grey" style="padding:128px 16px" id="contact">
+    <h3 class="YH-center">CONTACT</h3>
+    <p class="YH-center YH-large">Lets get in touch. Send us a message:</p>
+    <div style="margin-top:48px">
+      <p><i class="fa fa-map-marker fa-fw YH-xxlarge YH-margin-right"></i> Cairo, EGY</p>
+      <p><i class="fa fa-phone fa-fw YH-xxlarge YH-margin-right"></i> Phone: +20 1150909389</p>
+      <p><i class="fa fa-envelope fa-fw YH-xxlarge YH-margin-right"> </i> Email: yousafh68@gmail.com</p>
+      <br>
+      <form action="#" target="_blank">
+        <p><input class="YH-input YH-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="YH-input YH-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="YH-input YH-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="YH-input YH-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="YH-button YH-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      <!-- Image of location/map -->
+      <img src="img/map.jpg" class="YH-image YH-greyscale" style="width:100%;margin-top:48px">
     </div>
   </div>
-</div>
-
-<!-- Contact Section -->
-<div class="YH-container YH-light-grey" style="padding:128px 16px" id="contact">
-  <h3 class="YH-center">CONTACT</h3>
-  <p class="YH-center YH-large">Lets get in touch. Send us a message:</p>
-  <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw YH-xxlarge YH-margin-right"></i> Cairo, EGY</p>
-    <p><i class="fa fa-phone fa-fw YH-xxlarge YH-margin-right"></i> Phone: +20 1150909389</p>
-    <p><i class="fa fa-envelope fa-fw YH-xxlarge YH-margin-right"> </i> Email: yousafh68@gmail.com</p>
-    <br>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="YH-input YH-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="YH-input YH-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="YH-input YH-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="YH-input YH-border" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="YH-button YH-black" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-    <!-- Image of location/map -->
-    <img src="img/map.jpg" class="YH-image YH-greyscale" style="width:100%;margin-top:48px">
-  </div>
-</div>
-
 <!-- Footer -->
 <footer class="YH-center YH-black YH-padding-64">
   <a href="#home" class="YH-button YH-light-grey"><i class="fa fa-arrow-up YH-margin-right"></i>To the top</a>
@@ -331,33 +381,55 @@
   </div>
   <p>Powered by <a href="https://www.facebook.com/B.Yopussef11" title="Youssef hesham" target="_blank" class="YH-hover-text-green">el 3bd llah ana XD</a></p>
 </footer>
- 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+
+  <script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
 
 
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
 
-function YH_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-  } else {
-    mySidebar.style.display = 'block';
-  }
-}
+    function YH_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
 
-// Close the sidebar with the close button
-function YH_close() {
-    mySidebar.style.display = "none";
-}
-</script>
+    // Close the sidebar with the close button
+    function YH_close() {
+      mySidebar.style.display = "none";
+    }
+  </script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
 
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+  </script>
 </body>
+
 </html>
