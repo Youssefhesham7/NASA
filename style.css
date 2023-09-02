@@ -247,6 +247,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .YH-border-light-grey,.YH-hover-border-light-grey:hover,.YH-border-light-gray,.YH-hover-border-light-gray:hover{border-color:#f1f1f1!important}
 .YH-border-dark-grey,.YH-hover-border-dark-grey:hover,.YH-border-dark-gray,.YH-hover-border-dark-gray:hover{border-color:#616161!important}
 .YH-border-pale-red,.YH-hover-border-pale-red:hover{border-color:#ffe7e7!important}.YH-border-pale-green,.YH-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+
 /****************************/
 
 /* Full height image header */
@@ -528,15 +529,10 @@ input[type="search"] {
 }
 /***end body****/
 .YH-img-spc{
-=======
-.YH-border-pale-yellow,.YH-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.YH-border-pale-blue,.YH-hover-border-pale-blue:hover{border-color:#e7ffff!important}
-.icc{
->>>>>>> 6ddd4227f1bccce52c62c8bc031de3ed7127a3ac
     width: 250px;
     height: 250px;
     border-radius: 350px;
 }
-<<<<<<< HEAD
 
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
@@ -934,5 +930,3 @@ input[type="search"] {
 .link-pln{
   color: #000;
 }
-=======
->>>>>>> 6ddd4227f1bccce52c62c8bc031de3ed7127a3ac
