@@ -1565,7 +1565,6 @@ a {
 }
 
 /* Colors */
-<<<<<<< HEAD
 .YH-amber,
 .YH-hover-amber:hover {
   color: #000 !important;
@@ -2039,91 +2038,6 @@ a {
 .YH-hover-border-pale-green:hover {
   border-color: #e7ffe7 !important
 }
-=======
-.YH-amber,.YH-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
-.YH-aqua,.YH-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
-.YH-blue,.YH-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
-.YH-light-blue,.YH-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
-.YH-brown,.YH-hover-brown:hover{color:#fff!important;background-color:#795548!important}
-.YH-cyan,.YH-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
-.YH-blue-grey,.YH-hover-blue-grey:hover,.YH-blue-gray,.YH-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
-.YH-green,.YH-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
-.YH-light-green,.YH-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
-.YH-indigo,.YH-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
-.YH-khaki,.YH-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
-.YH-lime,.YH-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
-.YH-orange,.YH-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
-.YH-deep-orange,.YH-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
-.YH-pink,.YH-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
-.YH-purple,.YH-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
-.YH-deep-purple,.YH-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
-.YH-red,.YH-hover-red:hover{color:#fff!important;background-color:#f44336!important}
-.YH-sand,.YH-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
-.YH-teal,.YH-hover-teal:hover{color:#fff!important;background-color:#009688!important}
-.YH-yellow,.YH-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
-.YH-white,.YH-hover-white:hover{color:#fff!important;background-color:#380341!important}
-.YH-black,.YH-hover-black:hover{color:#fff!important;background-color:#000!important}
-.YH-grey,.YH-hover-grey:hover,.YH-gray,.YH-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
-.YH-light-grey,.YH-hover-light-grey:hover,.YH-light-gray,.YH-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
-.YH-dark-grey,.YH-hover-dark-grey:hover,.YH-dark-gray,.YH-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
-.YH-pale-red,.YH-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
-.YH-pale-green,.YH-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
-.YH-pale-yellow,.YH-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
-.YH-pale-blue,.YH-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
-.YH-text-amber,.YH-hover-text-amber:hover{color:#ffc107!important}
-.YH-text-aqua,.YH-hover-text-aqua:hover{color:#00ffff!important}
-.YH-text-blue,.YH-hover-text-blue:hover{color:#2196F3!important}
-.YH-text-light-blue,.YH-hover-text-light-blue:hover{color:#87CEEB!important}
-.YH-text-brown,.YH-hover-text-brown:hover{color:#795548!important}
-.YH-text-cyan,.YH-hover-text-cyan:hover{color:#00bcd4!important}
-.YH-text-blue-grey,.YH-hover-text-blue-grey:hover,.YH-text-blue-gray,.YH-hover-text-blue-gray:hover{color:#607d8b!important}
-.YH-text-green,.YH-hover-text-green:hover{color:#4CAF50!important}
-.YH-text-light-green,.YH-hover-text-light-green:hover{color:#8bc34a!important}
-.YH-text-indigo,.YH-hover-text-indigo:hover{color:#3f51b5!important}
-.YH-text-khaki,.YH-hover-text-khaki:hover{color:#b4aa50!important}
-.YH-text-lime,.YH-hover-text-lime:hover{color:#cddc39!important}
-.YH-text-orange,.YH-hover-text-orange:hover{color:#ff9800!important}
-.YH-text-deep-orange,.YH-hover-text-deep-orange:hover{color:#ff5722!important}
-.YH-text-pink,.YH-hover-text-pink:hover{color:#e91e63!important}
-.YH-text-purple,.YH-hover-text-purple:hover{color:#9c27b0!important}
-.YH-text-deep-purple,.YH-hover-text-deep-purple:hover{color:#673ab7!important}
-.YH-text-red,.YH-hover-text-red:hover{color:#f44336!important}
-.YH-text-sand,.YH-hover-text-sand:hover{color:#fdf5e6!important}
-.YH-text-teal,.YH-hover-text-teal:hover{color:#009688!important}
-.YH-text-yellow,.YH-hover-text-yellow:hover{color:#d2be0e!important}
-.YH-text-white,.YH-hover-text-white:hover{color:#fff!important}
-.YH-text-black,.YH-hover-text-black:hover{color:#000!important}
-.YH-text-grey,.YH-hover-text-grey:hover,.YH-text-gray,.YH-hover-text-gray:hover{color:#757575!important}
-.YH-text-light-grey,.YH-hover-text-light-grey:hover,.YH-text-light-gray,.YH-hover-text-light-gray:hover{color:#f1f1f1!important}
-.YH-text-dark-grey,.YH-hover-text-dark-grey:hover,.YH-text-dark-gray,.YH-hover-text-dark-gray:hover{color:#3a3a3a!important}
-.YH-border-amber,.YH-hover-border-amber:hover{border-color:#ffc107!important}
-.YH-border-aqua,.YH-hover-border-aqua:hover{border-color:#00ffff!important}
-.YH-border-blue,.YH-hover-border-blue:hover{border-color:#2196F3!important}
-.YH-border-light-blue,.YH-hover-border-light-blue:hover{border-color:#87CEEB!important}
-.YH-border-brown,.YH-hover-border-brown:hover{border-color:#795548!important}
-.YH-border-cyan,.YH-hover-border-cyan:hover{border-color:#00bcd4!important}
-.YH-border-blue-grey,.YH-hover-border-blue-grey:hover,.YH-border-blue-gray,.YH-hover-border-blue-gray:hover{border-color:#607d8b!important}
-.YH-border-green,.YH-hover-border-green:hover{border-color:#4CAF50!important}
-.YH-border-light-green,.YH-hover-border-light-green:hover{border-color:#8bc34a!important}
-.YH-border-indigo,.YH-hover-border-indigo:hover{border-color:#3f51b5!important}
-.YH-border-khaki,.YH-hover-border-khaki:hover{border-color:#f0e68c!important}
-.YH-border-lime,.YH-hover-border-lime:hover{border-color:#cddc39!important}
-.YH-border-orange,.YH-hover-border-orange:hover{border-color:#ff9800!important}
-.YH-border-deep-orange,.YH-hover-border-deep-orange:hover{border-color:#ff5722!important}
-.YH-border-pink,.YH-hover-border-pink:hover{border-color:#e91e63!important}
-.YH-border-purple,.YH-hover-border-purple:hover{border-color:#9c27b0!important}
-.YH-border-deep-purple,.YH-hover-border-deep-purple:hover{border-color:#673ab7!important}
-.YH-border-red,.YH-hover-border-red:hover{border-color:#f44336!important}
-.YH-border-sand,.YH-hover-border-sand:hover{border-color:#fdf5e6!important}
-.YH-border-teal,.YH-hover-border-teal:hover{border-color:#009688!important}
-.YH-border-yellow,.YH-hover-border-yellow:hover{border-color:#ffeb3b!important}
-.YH-border-white,.YH-hover-border-white:hover{border-color:#fff!important}
-.YH-border-black,.YH-hover-border-black:hover{border-color:#000!important}
-.YH-border-grey,.YH-hover-border-grey:hover,.YH-border-gray,.YH-hover-border-gray:hover{border-color:#9e9e9e!important}
-.YH-border-light-grey,.YH-hover-border-light-grey:hover,.YH-border-light-gray,.YH-hover-border-light-gray:hover{border-color:#f1f1f1!important}
-.YH-border-dark-grey,.YH-hover-border-dark-grey:hover,.YH-border-dark-gray,.YH-hover-border-dark-gray:hover{border-color:#616161!important}
-.YH-border-pale-red,.YH-hover-border-pale-red:hover{border-color:#ffe7e7!important}.YH-border-pale-green,.YH-hover-border-pale-green:hover{border-color:#e7ffe7!important}
->>>>>>> dbc3fa0ef5a627f404fa929bfbb49b5d6c3eb15b
 
 /****************************/
 
@@ -2395,17 +2309,10 @@ input[type="search"] {
 }
 
 /***end body****/
-<<<<<<< HEAD
 .YH-img-spc {
   width: 250px;
   height: 250px;
   border-radius: 350px;
-=======
-.YH-img-spc{
-    width: 250px;
-    height: 250px;
-    border-radius: 350px;
->>>>>>> dbc3fa0ef5a627f404fa929bfbb49b5d6c3eb15b
 }
 
 
@@ -2810,7 +2717,6 @@ input[type="search"] {
 .link-pln {
   color: #000;
 }
-<<<<<<< HEAD
 
 .pln-centered-h1 {
   position: absolute;
@@ -2861,5 +2767,3 @@ input[type="search"] {
 
   }
 }
-=======
->>>>>>> dbc3fa0ef5a627f404fa929bfbb49b5d6c3eb15b
