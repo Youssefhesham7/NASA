@@ -780,6 +780,12 @@ a {
   .YH-half {
     width: 49.99999%
   }
+  .YH-tex{
+    width: 100%;
+    text-align: left;
+    padding-left: 300px;
+    max-width:1000px ;
+  }
 
   .YH-col.m7 {
     width: 58.33333%
@@ -2767,7 +2773,6 @@ input[type="search"] {
 
   }
 }
-<<<<<<< HEAD
 
 .li-src {
   background-color: #0000006e ;
@@ -2859,5 +2864,3 @@ input[type="search"] {
   color: #644bff;
   cursor: pointer;
 }
-=======
->>>>>>> 6f310824bee87f2e2db9c279ab0e4b9742335db8
