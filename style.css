@@ -992,15 +992,11 @@ a {
   .YH-half {
     width: 49.99999%
   }
-<<<<<<< HEAD
-=======
   .YH-text-pln{
     width: 100%;
     text-align: left;
-    padding-left: 300px;
-    max-width:1000px ;
+    max-width:100% ;
   }
->>>>>>> e1251a915109233a01a5c9928598f09c458b4ba0
 
   .YH-col.m7 {
     width: 58.33333%
@@ -3083,7 +3079,6 @@ input[type="search"] {
   color: #644bff;
   cursor: pointer;
 }
-<<<<<<< HEAD
 
 
 /**************** Start Responsive ******************
@@ -3882,5 +3877,3 @@ a{
     }
 }
 /********* end res*********/
-=======
->>>>>>> e1251a915109233a01a5c9928598f09c458b4ba0
