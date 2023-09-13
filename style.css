@@ -49,11 +49,13 @@
   text-align: left;
 }
 .pln-padding-64 {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  width: 100%;
-  max-width: 100%;
-  font-size: 5px;
+padding-top: 75px !important;
+    padding-bottom: 75px !important;
+    width: 100%;
+    max-width: 100%;
+    font-size: 5px;
+    background-repeat: no-repeat;
+    background-size: 150%;
 }
 header nav li {
   margin: 0 10px;
