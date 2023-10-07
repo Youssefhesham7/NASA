@@ -233,8 +233,95 @@ html {
   background-size: cover;
   background-image: url("img/8a9909d7-5e9c-41c7-926e-05ea361a7467.png");
   min-height: 100%;
+}.bgimg-login {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/3d07ea13-3cad-4793-81a7-4150891b41ee.png") ;
+   /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+    /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.bgimg-register{
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/39bbaa6b-5761-4435-b847-beee2d0c5541.png") ;
+   /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+    /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.log-inp-1{
+width: 190px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 32.5px;
+background: #D9D9D9;
+font-style: normal;
+line-height: normal;
+position: absolute;
+top: 40%;
+left: 12%;
+transform: translate(-50%, -50%);
+padding: 20px;
+}
+.log-inp-2{
+  width: 190px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 32.5px;
+background: #D9D9D9;
+font-style: normal;
+line-height: normal;
+position: absolute;
+top: 40%;
+left: 28%;
+transform: translate(-50%, -50%);
+padding: 20px;
 
+}
+.log-inp-3{
+  width: 400px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 32.5px;
+background: #D9D9D9;
+font-style: normal;
+line-height: normal;
+position: absolute;
+top: 50%;
+left: 20%;
+transform: translate(-50%, -50%);
+padding: 20px;
+
+}
+.log-inp-4{
+  width: 400px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 32.5px;
+background: #D9D9D9;
+font-style: normal;
+line-height: normal;
+position: absolute;
+top: 60%;
+left: 20%;
+transform: translate(-50%, -50%);
+padding: 20px;
+
+}
 /**********/
 /* width */
 ::-webkit-scrollbar {
@@ -992,15 +1079,11 @@ a {
   .YH-half {
     width: 49.99999%
   }
-<<<<<<< HEAD
-=======
   .YH-text-pln{
     width: 100%;
     text-align: left;
-    padding-left: 300px;
-    max-width:1000px ;
+    max-width:100% ;
   }
->>>>>>> e1251a915109233a01a5c9928598f09c458b4ba0
 
   .YH-col.m7 {
     width: 58.33333%
@@ -2362,6 +2445,67 @@ header nav li:last-child {
   margin-right: 0;
 }
 
+.log-but{
+width: 100px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 32.5px;
+background: #D9D9D9;
+color: #000;
+font-style: normal;
+line-height: normal;
+position: absolute;
+top: 70%;
+left: 9%;
+transform: translate(-50%, -50%);
+z-index: 0;
+}
+.log-a-1{
+  color: #000;
+  font-style: normal;
+  line-height: normal;
+  position: absolute;
+  top: 70%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  text-align: center;
+  color: #000;
+font-family: Inter;
+font-size: 15px;
+text-decoration-line: underline;
+}.log-a-2{
+  color: #000;
+  font-style: normal;
+  line-height: normal;
+  position: absolute;
+  top: 70%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  text-align: center;
+  color: #000;
+font-family: Inter;
+font-size: 15px;
+text-decoration-line: underline;
+}
+.log-h1-cover{
+  font-size: 60px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
 .cover {
   height: 100vh;
   width: 100%;
@@ -3083,7 +3227,6 @@ input[type="search"] {
   color: #644bff;
   cursor: pointer;
 }
-<<<<<<< HEAD
 
 
 /**************** Start Responsive ******************
@@ -3882,5 +4025,3 @@ a{
     }
 }
 /********* end res*********/
-=======
->>>>>>> e1251a915109233a01a5c9928598f09c458b4ba0
