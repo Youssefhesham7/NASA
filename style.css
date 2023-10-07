@@ -40,7 +40,7 @@
 .pln-quarter {
   float: left;
   width: 25%;
-  font-size: 10px;
+  font-size: 15px;
 }
 .pln-container {
   position: relative;
@@ -49,11 +49,13 @@
   text-align: left;
 }
 .pln-padding-64 {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  width: 100%;
-  max-width: 100%;
-  font-size: 5px;
+padding-top: 75px !important;
+    padding-bottom: 75px !important;
+    width: 100%;
+    max-width: 100%;
+    font-size: 5px;
+    background-repeat: no-repeat;
+    background-size: 150%;
 }
 header nav li {
   margin: 0 10px;
@@ -4024,4 +4026,8 @@ a{
     background-color: #f1f1f1 !important;
     }
 }
+<<<<<<< HEAD
 /********* end res*********/
+=======
+/********* end res*********/
+>>>>>>> 9297442878798af91b6d0ab3f45ca86fb0c03d6c
