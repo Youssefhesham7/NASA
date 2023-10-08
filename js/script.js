@@ -55,5 +55,6 @@ function showSuggestions(list){
     }else{
       listData = list.join('');
     }
+    
     suggBox.innerHTML = listData;
 }
