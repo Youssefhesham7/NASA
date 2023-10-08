@@ -1,12 +1,111 @@
+@media (max-width:990) {
+  .leftcolumn-l1 {
+    float: left;
+    width: 75%;
+    position: absolute;
+    top: 100%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 0px;
+  }
+  
+  .leftcolumn-1 {
+    float: left;
+    width: 75%;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 20px;
+  }
+  
+  .leftcolumn-2 {
+    float: left;
+    width: 75%;
+    position: absolute;
+  
+    top: 40%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+  }
+  
+  .leftcolumn-3 {
+    float: left;
+    width: 75%;
+    position: absolute;
+  
+    top: 86%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 20px;
+  }
+  
+  .leftcolumn-4 {
+    float: left;
+    width: 75%;
+    position: absolute;
+  
+    top: 86%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 20px;
+  }
+  .leftcolumn-5 {
+    float: left;
+    width: 75%;
+    position: absolute;
+  
+    top: 132%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 20px;
+  }
+  .leftcolumn-6 {
+    float: left;
+    width: 75%;
+    position: absolute;
+  
+    top: 132%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 20px;
+  }
+  .leftcolumn-7 {
+    float: left;
+    width: 75%;
+    position: absolute;
+  
+    top: 178%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 20px;
+  }
+  .leftcolumn-8 {
+    float: left;
+    width: 75%;
+    position: absolute;
+  
+    top: 178%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 20px;
+  }
+  
+  
+}
 /******* Start Pln *****************/
 .res-img-pln {
   width: 100%;
 }
-
-.pln-a {
-  font-size: 15px;
-}
-
 .dark-grey-pln {
 
   color: #fff !important;
@@ -1176,66 +1275,56 @@ a {
 
 @media (min-width:601px) {
   .pln-a {
-    font-size: 15px;
-  }
-  .YH-col.m1 {
-    width: 8.33333%
+    font-size: 30px;
   }
 
-  .YH-col.m2 {
-    width: 16.66666%
-  }
+.YH-col.s1 {
+  width: 8.33333%
+}
 
-  .YH-col.m3,
-  .YH-quarter {
-    width: 24.99999%
-  }
+.YH-col.s2 {
+  width: 16.66666%
+}
 
-  .YH-col.m4,
-  .YH-third {
-    width: 33.33333%
-  }
+.YH-col.s3 {
+  width: 24.99999%
+}
 
-  .YH-col.m5 {
-    width: 41.66666%
-  }
+.YH-col.s4 {
+  width: 33.33333%
+}
 
-  .YH-col.m6,
-  .YH-half {
-    width: 49.99999%
-  }
+.YH-col.s5 {
+  width: 41.66666%
+}
 
-  .YH-text-pln {
-    width: 100%;
-    text-align: left;
-    max-width: 100%;
-  }
+.YH-col.s6 {
+  width: 49.99999%
+}
 
-  .YH-col.m7 {
-    width: 58.33333%
-  }
+.YH-col.s7 {
+  width: 58.33333%
+}
 
-  .YH-col.m8,
-  .YH-twothird {
-    width: 66.66666%
-  }
+.YH-col.s8 {
+  width: 66.66666%
+}
 
-  .YH-col.m9,
-  .YH-threequarter {
-    width: 74.99999%
-  }
+.YH-col.s9 {
+  width: 74.99999%
+}
 
-  .YH-col.m10 {
-    width: 83.33333%
-  }
+.YH-col.s10 {
+  width: 83.33333%
+}
 
-  .YH-col.m11 {
-    width: 91.66666%
-  }
+.YH-col.s11 {
+  width: 91.66666%
+}
 
-  .YH-col.m12 {
-    width: 99.99999%
-  }
+.YH-col.s12 {
+  width: 99.99999%
+}
 }
 
 @media (min-width:993px) {
@@ -4493,4 +4582,7 @@ a{
 .btn.active {
   background-color: #666;
   color: white;
+}
+.pln-a {
+  font-size:25px;
 }
